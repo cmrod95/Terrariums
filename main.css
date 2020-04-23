@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #ccc;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar {
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 1rem;
+}
+
+#HomeMenu {
+    display: None;
+}
+
+a:hover + #HomeMenu {
+    display: block;
+}
+
+.nav-item a{
+    text-decoration: none;
+}
+
+footer {
+    display: fixed;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    background-color: #ccc;
+}
